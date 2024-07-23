@@ -2,6 +2,12 @@ Basic Calculator Web App
 Overview:-
 This is a simple web-based calculator application that allows users to perform basic arithmetic operations such as addition, subtraction, multiplication, and division. The app is built using HTML, CSS, and JavaScript.
 
+Demo
+You can view a live demo of the application Demo [here](https://himanshuchopra99.github.io/Calculator/)
+
+
+
+
 Features:-
 Addition: Add two numbers.
 Subtraction: Subtract one number from another.
