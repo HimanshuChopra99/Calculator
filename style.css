@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 60px;
+    align-items: center;
+    background-color: rgb(45, 45, 45);
+}
+.heading{
+    font-size: 60px;
+    color: rgb(255, 255, 255);
+}
+.container{
+    background-color: rgb(223, 231, 239);
+    width: 400px;
+    padding: 20px;
+    border-radius: 20px;
+}
+.input{
+    border-radius: 10px;
+    outline: none;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    width: 100%;
+    text-align: right;
+    font-size: 30px;
+    padding: 15px;
+    letter-spacing: 1.5px;
+    box-shadow: 2px 2px 3px #aaaaaa inset;
+}
+.row{
+    display: flex;
+}
+.button{
+    flex: 1;
+    font-size: 30px;
+    padding: 20px;
+    margin: 5px;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 2px 2px 3px #aaaaaa;
+    transition: background-color 0.07s ease-in-out;
+}
+
+.button:hover:not(.active){
+    background-color: #ccc;
+    scale: 1.02;
+}
+
+.active{
+    box-shadow: 2px 2px 3px #aaaaaa inset;
+    border: 1px solid aaaaaa;
+}
+
+/* Media Query for Tab */
+@media (max-width: 768px) {
+    .container {
+        width: 300px;
+        padding: 15px;
+    }
+
+    .input {
+        font-size: 24px;
+        padding: 12px;
+    }
+
+    .button {
+        font-size: 24px;
+        padding: 15px;
+    }
+
+    .heading {
+        font-size: 40px;
+    }
+}
+/* Media query for mobile */
+@media (max-width: 480px) {
+    .container {
+        width: 250px;
+        padding: 10px;
+    }
+
+    .input {
+        font-size: 20px;
+        padding: 10px;
+    }
+
+    .button {
+        font-size: 20px;
+        padding: 10px;
+    }
+
+    .heading {
+        font-size: 30px;
+    }
+}
